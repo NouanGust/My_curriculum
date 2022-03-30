@@ -1,0 +1,248 @@
+:root{
+    --grad: linear-gradient(aquamarine, white);
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font: 16px arial, helvetica, sans-serif;
+
+}
+
+#principal{
+    padding: 0 10px;
+    background-color: white;
+}
+
+header{
+    background: linear-gradient(aquamarine, white);
+    height: 270px;
+    
+}
+
+header .linha{
+    display: flex;
+}
+
+.titulo{
+    
+    padding-left: 8px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.titulo h1{
+    font-size: 1.4rem;
+}
+
+.titulo p{
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    text-indent: 1rem;
+    text-align: justify;
+
+}
+
+.foto{
+    padding: 8px 5px 8px 2px;
+}
+
+.foto img{
+    border-radius: 45%;
+    box-shadow: 1px 1px 2px #9EA4A8;
+}
+
+.informarcoes-gerais{
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+}
+
+section{
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 60px;
+    box-shadow: 9px 6px 6px 8px #9EA4A8;
+    height: 1230px;
+}
+
+.cartao{
+    background-color: #F0F8FF;
+    border-radius: 10px;
+    border: 0.15rem solid #3B4C5C;
+    box-shadow: 2px 2px 6px #9EA4A8;
+    margin: 20px;
+    
+}
+
+.cartao hr{
+    margin: 0;
+    border: 0.1rem solid #3B4C5C;
+}
+ .cartao h3{
+    margin: 0;
+    padding: 5px;
+    border-radius: 10px 10px 0 0 ;
+    background-color: #CED5DB;
+    
+}
+
+section .cartao ul{
+    font-size: 1.1rem;
+}
+
+section .cartao p{
+    padding: 10px;
+    text-indent: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 25px;
+    text-align: justify;
+}
+
+section .txt{
+    padding: 5px;
+    margin: 20px;
+    background-color: #F0F8FF;
+    border: 0.15rem solid #3B4C5C;
+    border-radius: 30px;
+    box-shadow: 2px 2px 6px #9EA4A8;
+}
+
+section .txt p{
+    padding: 5px 8px 5px 1px;
+    font-size: 1.1rem;
+    text-indent: 1.2rem;
+    text-align: justify;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(white, aquamarine);
+}
+
+footer .ld_esq{
+    width: 350px;
+    height: 230px;
+    box-shadow: 2px 2px 6px #9EA4A8;
+}
+
+.ld_esq h3{
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.ld_esq ul{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+footer .ld_dir{
+    width: 350px;
+    height: 230px;
+    box-shadow: 2px 2px 6px #9EA4A8;
+}
+
+.ld_dir h3{
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.ld_dir ul{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+li a{
+    color: black;
+}
+
+li a:hover{
+    color: #90BBE1;
+}
+
+
+
+
+@media only screen and (min-width: 768px){
+    
+    body{
+        background-color: white;
+    }
+
+    #principal{
+        background-color: white;
+        width: 1000px;
+        margin: auto;
+    }
+
+    .linha{
+        margin: auto;
+        display: flex;
+    }
+    
+    header{
+        background: var(--grad);
+        display: flex;
+        height: 420px;
+        margin-bottom: 60px;
+        
+
+    }
+    
+    .titulo{
+        padding: 12px;
+        
+    }
+    
+    .titulo h1{
+        font-size: 2.9rem;
+    
+    }
+
+    .titulo p{
+        font-size: 1.4rem;
+    }
+    
+    .foto{
+        padding: 8px;
+        margin-left: 40px;
+    }
+    
+    section{
+        margin: auto;
+        height: 1100px;
+    }
+
+    .esc{
+        height: 200px;
+        width: 800px;
+        margin: 50px auto;
+    }
+
+    .cur-com{
+        height: 200px;
+        width: 411px;
+        margin: 20px 20px 150px 89px;
+        
+    }
+
+    .cur-and{
+        height: 200px;
+        width: 350px;
+        
+    }
+
+    section .txt{
+        margin: auto;
+        width: 813px;
+    }
+
+    footer{
+        height: 400px;
+        margin: 160px auto 0;
+
+    }
+
+}
